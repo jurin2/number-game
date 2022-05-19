@@ -75,6 +75,8 @@ function reset(){
     userInput.value = "";
     // 결과창문구 초기화
     resultText.textContent = "결과창";
+    //메인이미지 초기화
+    resultAreaImg.src = "./images/main.jpg";
     // 남은기회 최기화
     gameOver = false;
     playButton.disabled = false;
